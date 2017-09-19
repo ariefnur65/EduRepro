@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/akunkuL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundkuisaku"
+    tools:context="id.co.blogspot.blogmozink.edurepro.akunku">
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/reset"
+        android:onClick="openMain"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintLeft_toRightOf="@+id/headerJudulMateri"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/kembali1kuisaku"
+        android:onClick="openMain"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/headerJudulMateri"
+        app:layout_constraintTop_toTopOf="@+id/headerJudulMateri" />
+
+    <ImageView
+        android:id="@+id/headerJudulMateri"
+        android:layout_width="162dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pemainjudulkuisaku" />
+
+    <ImageView
+        android:id="@+id/contentAkun"
+        android:layout_width="309dp"
+        android:layout_height="355dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerJudulMateri"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mainprofile1" />
+
+    <ImageView
+        android:id="@+id/level"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/contentAkun"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/contentAkun"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/level9kuisaku" />
+
+    <TextView
+        android:id="@+id/namaAkun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="283dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:maxLength="10"
+        android:text="TextView"
+        android:textColor="@color/colorFont"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/contentAkun"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/contentAkun"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:id="@+id/kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="237dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:maxLength="10"
+        android:text="Perempuan"
+        android:textColor="@color/colorFont"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/contentAkun"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namaAkun"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <TextView
+        android:id="@+id/nyawa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="8dp"
+        android:maxLength="10"
+        android:text="9"
+        android:textColor="@color/colorText"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/contentAkun"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namaAkun"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="63dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="3dp"
+        android:maxLength="10"
+        android:text="10"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/contentAkun"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nyawa"
+        app:layout_constraintVertical_bias="0.392" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundkuisaku"
+    tools:context="id.co.blogspot.blogmozink.edurepro.LoginActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:id="@+id/logoAku"
+        android:layout_width="194dp"
+        android:layout_height="226dp"
+        app:srcCompat="@drawable/logokuisaku"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputNama"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="181dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:background="@drawable/namakuisaku"
+        android:ems="10"
+        android:hint="Nama Anda"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        android:paddingLeft="55dp"
+        android:textColor="@color/colorFont"
+        android:textColorHint="@color/colorFont"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/namaTeks"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namaTeks" />
+
+    <TextView
+        android:id="@+id/namaTeks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/info_nama"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/logoAku"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/logoAku"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/logoAku"
+        app:layout_constraintHorizontal_bias="0.031" />
+
+    <TextView
+        android:id="@+id/infoUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="40dp"
+        android:text="@string/info_umur"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        app:layout_constraintRight_toLeftOf="@+id/inputNama"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/inputNama" />
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/bgtombolkuisaku"
+        android:onClick="lanjutClick"
+        android:text="Lanjut"
+        android:textColor="@color/colorText"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/logoAku"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/kelamin"
+        app:layout_constraintVertical_bias="0.642"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/logoAku" />
+
+    <EditText
+        android:id="@+id/inputUmur"
+        android:layout_width="92dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/umurkuisaku"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="2"
+        android:paddingLeft="50dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorFont"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@+id/infoUmur"
+        app:layout_constraintTop_toBottomOf="@+id/infoUmur" />
+
+    <Spinner
+        android:id="@+id/kelamin"
+        android:layout_width="131dp"
+        android:layout_height="41dp"
+
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/jeniskelaminkuisaku"
+        android:gravity="left"
+        android:paddingLeft="40dp"
+        android:textAlignment="viewEnd"
+        android:visibility="visible"
+        app:layout_constraintLeft_toRightOf="@+id/inputUmur"
+        app:layout_constraintTop_toBottomOf="@+id/info_jenis"
+        tools:listitem="@layout/support_simple_spinner_dropdown_item" />
+
+    <TextView
+        android:id="@+id/info_jenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_kelamin"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/infoUmur"
+        android:layout_marginLeft="90dp"
+        android:layout_marginStart="90dp"
+        app:layout_constraintTop_toTopOf="@+id/infoUmur" />
+
+</android.support.constraint.ConstraintLayout>

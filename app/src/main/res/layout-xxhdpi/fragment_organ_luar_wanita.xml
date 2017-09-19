@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="@drawable/popupkuisaku"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:id="@+id/organluarlayout"
+    android:paddingEnd="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.98"
+            android:gravity="center"
+            android:text="@string/PopUpLuarWanita"
+            android:textColor="@color/colorText"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/tutupkuisaku" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SpoilerMateri52_3_1"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/popupLuar1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/bgpopupkuisaku"
+                app:srcCompat="@drawable/wanita_vagina" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/justifyTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1.07"
+                android:text="@string/SpoilerMateri52_3_11"
+                android:textColor="@color/colorText"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SpoilerMateri52_3_2"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+<!--Mayora Minora Klitoris-->
+            <ImageView
+                android:id="@+id/popupLuar2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/bgpopupkuisaku"
+                app:srcCompat="@drawable/wanita_labia_mayora" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Labia Mayora"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/popupLuar3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/bgpopupkuisaku"
+                app:srcCompat="@drawable/wanita_labia_minora" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Labia Minora"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/popupLuar4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/bgpopupkuisaku"
+                app:srcCompat="@drawable/wanita_klitoris" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klitoris"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1.07"
+                android:text="@string/SpoilerMateri52_3_21"
+                android:textColor="@color/colorText"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+
+
+

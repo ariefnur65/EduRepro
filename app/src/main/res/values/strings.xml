@@ -1,0 +1,919 @@
+<resources>
+    <string name="app_name">AKU</string>
+    <string name="info_Berat">Berat Badan:</string>
+    <string name="info_Tinggi">Tinggi Badan:</string>
+    <string name="infoKg">Kg</string>
+    <string name="infoM">Cm</string>
+    <string name="button_convert">Hitung</string>
+    <string name="infoSaran">Saran Pola Hidup Sehat: </string>
+    <string name="infoIMT">Indeks Massa Tubuh (IMT)/ <br> Body Mass Index (BMI)</br> </string>
+    <string name="output_ket">Keterangan</string>
+    <string name="output_saran">Saran</string>
+    <string name="radio_laki">Laki-laki</string>
+    <string name="radio_perm">Perempuan</string>
+    <string name="hint_umur">Umur Anda</string>
+    <string name="bmi_kurus">Meningkatkan asupan makanan, minum susu, olahraga teratur, istirahat cukup, dan sarapan pagi</string>
+    <string name="bmi_normal">Pertahankan</string>
+    <string name="bmi_gemuk">Mengatur porsi makan perbanyak konsumsi buah dan sayur, minum air putih, olahraga teratur, memperhatikan asupan kalori, karbohidrat, dan lemak agar tidak berlebih</string>
+    <!--Main Menu-->
+    <string name="materi1">Pengantar Kesehatan Reproduksi</string>
+    <string name="materi2">Mengenal Remaja</string>
+    <string name="materi3">Hormon Reproduksi Remaja</string>
+    <string name="materi4">Gizi Remaja</string>
+    <string name="materi5">Kesehatan Organ Reproduksi</string>
+    <string name="materi6">Hygiene Remaja</string>
+    <string name="materi7">Permasalahan Remaja dan Penyimpangan Perilaku Seksual</string>
+    <string name="materi8">Penyakit Menular Seksual</string>
+    <string name="materi9">Istilah-Istilah Penting</string>
+
+    <!--Login Menu-->
+    <string name="info_nama">Nama:</string>
+    <string name="info_umur">Umur:</string>
+    <string name="info_kelamin">Jenis Kelamin:</string>
+    <string-array name="jenis">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="pemilihan_umur">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+
+    </string-array>
+
+    <!--Isi Materi-->
+    <!--1-->
+    <string name="teksMateri1_1">Reproduksi berasal dari kata re (kembali) dan produksi (membuat
+        menghasilkan), yang berarti proses kehidupan manusia dalam menghasilkan keturunan demi
+        kelestarian hidup. Kesehatan reproduksi adalah kesejahteraan fisik, mental, dan sosial
+        yang utuh, bukan hanya tidak adanya penyakit atau kelemahan, tetapi dalam segala hal
+        yang berhubungan dengan sistem reproduksi dan fungsi serta proses-prosesnya. \n</string>
+    <string name="SpoilerMateri1">Pentingnya mempelajari ilmu kesehatan reproduksi (kespro)</string>
+    <string name="SpoilerMateri1_1">1.	Remaja dapat terpenuhi hak-hak reproduksinya, seperti hak mendapat informasi dan pendidikan, termasuk pendidikan kespro, mendapat pelayanan dan perlindungan kesehatan reproduksi, mendapat manfaat dari kemajuan IPTEK terkait kesehatan reproduksi, hak hidup, hak terbebas dari diskriminasi\n</string>
+    <string name="SpoilerMateri1_2">2.	Dapat meningkatkan kemandirian dalam mengatur fungsi, kebersihan, dan proses reproduksi\n</string>
+    <string name="SpoilerMateri1_3">3.	Menurunkan angka kematian ibu dan bayi termasuk aborsi remaja\n</string>
+
+    <!--2-->
+    <string name="teksMateri2_1">Masa remaja (pubertas/ adolescence) merupakan masa peralihan dari masa anak-anak ke masa dewasa yang mengalami pertumbuhan dan perkembangan.\n</string>
+    <string name="teksMateri2_2">Pertumbuhan merupakan perubahan yang menyangkut segi kuantitatif, ditandai dengan peningkatan dalam ukuran fisik dan dapat diukur. Perubahan pada perempuan dipengaruhi oleh hormon estrogen dan progesterone dengan tanda mengalami menstruasi. Pada laki-laki, perubahan hormon testosteron ditandai dengan mimpi basah.\n</string>
+    <string name="teksMateri2_3">Perkembangan remaja terbagi menjadi perkembangan emosi, perkembangan intelegensi, perkembangan sosial, dan perkembangan moral.\n</string>
+
+    <string name="SpoilerMateri21">Jenis Perkembangan Remaja</string>
+    <string name="SpoilerMateri2_1_1">a.	Perkembangan emosi\n</string>
+    <string name="SpoilerMateri2_1_2">Remaja menjadi lebih sensitive, misalnya mudah menangis, cemas, frustasi, atau bahkan tertawa tanpa alasan. Hal ini utamanya terjadi pada remaja putri sebelum menstruasi.\n</string>
+    <string name="SpoilerMateri2_2_1">b.	Perkembangan intelegensi\n</string>
+    <string name="SpoilerMateri2_2_2">Remaja cenderung mengembangkan cara berfikir abstrak, memberikan kritik, dan mencoba-coba hal baru.\n</string>
+    <string name="SpoilerMateri2_3_1">c.	Perkembangan sosial\n</string>
+    <string name="SpoilerMateri2_3_2">Keinginan mandiri timbul dari dalam diri remaja dengan mulai melepaskan diri dari pengaruh orang tua dan lebih banyak menghabiskan waktu dengan teman sebaya.\n</string>
+    <string name="SpoilerMateri2_4_1">d.	Perkembangan moral\n</string>
+    <string name="SpoilerMateri2_4_2">Perkembangan moralitas remaja meliputi keyakinan moral lebih berpusat pada apa yang benar dan bukan yang salah, memberontak dari nilai-nilai orang tua dan menentukan nilai-nilainya sendiri, dan mulai menganalisis norma sosial.\n</string>
+
+    <string name="SpoilerMater22">Perubahan pada Remaja Laki-Laki dan Wanita</string>
+    <string name="SpoilerMater23">Tugas perkembangan remaja</string>
+
+    <string name="SpoilerMateri23_1">a.	Belajar berperan sesuai dengan jenis kelamin\nb.	Menerima keadaan dan penampilan diri\nc.	Mencapai relasi yang baru dengan teman sebaya\nd.	Mencapai perilaku sosial yang bertanggung jawab\ne.	Mencapai nilai-nilai kedewasaan\n
+</string>
+    <!--3-->
+
+    <string name="SpoilerMateri3_1_1">1.	Estrogen, jenisnya estradiol\n</string>
+    <string name="SpoilerMateri3_1_2">Diproduksi oleh ovarium, untuk pembentukan ciri perkembangan seksual pada wanita seperti pembentukan payudara, rambut kemaluan, lekuk tubuh, berperan dalam siklus menstruasi, pada pria untuk pematangan sperma\n</string>
+    <string name="SpoilerMateri3_2_1">2.	Progesterone\n</string>
+    <string name="SpoilerMateri3_2_2">Diproduksi oleh korpus luteum, untuk mempertahankan ketebalan endometrium, membentuk plasenta\n</string>
+    <string name="SpoilerMateri3_3_1">3.	Testosterone\n</string>
+    <string name="SpoilerMateri3_3_2">Diproduksi oleh testis, berperan dalam spermatogenesis dan penampakan ciri sekunder pria\n</string>
+    <string name="SpoilerMateri3_4_1">4.	Gonadotrophin releasing hormone (GnRh)\n</string>
+    <string name="SpoilerMateri3_4_2">Diproduksi oleh hipotalamus di otak, untuk merangsang FSH\n</string>
+    <string name="SpoilerMateri3_5_1">5.	Follicle stimulating hormone (FSH)\n</string>
+    <string name="SpoilerMateri3_5_2">Diproduksi sel basal hipofisis, untuk pematangan folikel pada wanita dan pematangan sperma di testis pada pria\n</string>
+    <string name="SpoilerMateri3_6_1">6.	Luteinizing hormone (LH) / Interstitial Cell Stimulating Hormone (ICSH)\n</string>
+    <string name="SpoilerMateri3_6_2">Diproduksi sel kromofob hipofisis anterior, untuk terjadinya ovulasi dan mempertahankan korpus luteum untuk menghasilkan progesterone, merangsang sel Leydig untuk menghasilkan testosterone (pada laki-laki)\n</string>
+
+    <!--4-->
+    <string name="teksMateri4_1">Untuk menentukan status gizi remaja (kurus/normal/gemuk), digunakan perhitungan Indeks Massa Tubuh (IMT) / Body Mass Index (BMI).\n</string>
+    <string name="teksMateri4_2">Kategori hasil (WHO, 2007) :\n</string>
+    <string name="SpoilerMateri41_1_1">1.	Berat Badan / massa tubuh\n</string>
+    <string name="SpoilerMateri41_1_2">Berat Badan dipengaruhi oleh umur, jenis kelamin, tinggi badan, keturunan\n</string>
+    <string name="SpoilerMateri41_2_1">2.	Penyebab kurus\n</string>
+    <string name="SpoilerMateri41_2_2">Kurang makan, kurang istirahat, keturunan, menderita penyakit seperti beri-beri atau cacingan\n</string>
+    <string name="SpoilerMateri41_3_1">3.	Penyebab gemuk\n</string>
+    <string name="SpoilerMateri41_3_2">Terlalu suka makan tetapi kalori sedikit digunakan, keturunan, kelainan kelenjar buntu, penyakit seperti diabetes mellitus atau jantung\n</string>
+    <string name="SpoilerMateri41_4_1">4.	Usaha agar berat badan normal\n</string>
+    <string name="SpoilerMateri41_4_2">Kontrol tinggi dan berat badan (untuk mengetahui IMT) secara periodik, makan (makanan bergizi) secara teratur, istirahat cukup, berolah raga terukur\n</string>
+    <string name="SpoilerMateri42_1">Kebutuhan gizi yang meningkat pada masa remaja adalah karbohidrat, protein, mineral (kalsium, zat besi, zinc), dan vitamin\n</string>
+    <string name="SpoilerMateri42">Permasalahan gizi remaja\n</string>
+    <string name="SpoilerMateri42_1_1">1.	Obesitas\n</string>
+    <string name="SpoilerMateri42_1_2" formatted="false">kegemukan akibat timbunan lemak berlebih. Dikatakan kelebihan berat badan jika IMT &gt;25,0 dan obesitas jika &gt;30,0\n</string>
+    <string name="SpoilerMateri42_2_1">2.	Anemia\n</string>
+    <string name="SpoilerMateri42_2_2" formatted="false">kekurangan zat besi dalam darah sehingga Hb rendah. Gejalanya mudah lelah, pucat, pusing. Hb normal pria adalah 14&#8211;18 gr&#37; sedangkan pada wanita 12&#8211;16 gr&#37;\n</string>
+    <string name="SpoilerMateri42_3_1">3.	Alcohol</string>
+    <string name="SpoilerMateri42_3_2">biasanya akibat faktor pergaulan / lingkungan, ingin coba-coba,  dan masalah dalam keluarga. Alcohol menghambat penyerapan zinc dan asam folat yang dibutuhkan untuk pertumbuhan.\n</string>
+    <string name="SpoilerMateri42_4_1">4.	Rokok</string>
+    <string name="SpoilerMateri42_4_2">karena faktor mempererat persahabatan dan pengurang stress/ngantuk, namun rokok mengandung racun berbahaya yang juga membahayakan perokok pasif / orang di sekitarnya jika menghirup\n</string>
+    <string name="SpoilerMateri42_5_1">5.	Anoreksia nervosa</string>
+    <string name="SpoilerMateri42_5_2">ketakutan ekstrem terhadap penambahan berat badan dan selalu merasa kurang puas dengan bentuk dan ukuran tubuhnya sehingga olahraga berlebih, diet tidak sehat, mengontrol makanan dengan sangat hati-hati\n</string>
+    <string name="SpoilerMateri42_6_1">6.	Bumilia</string>
+    <string name="SpoilerMateri42_6_2">kelanjutan dari anoreksia sehingga penderita memuntahkan makanan dan olahraga berlebih dengan tujuan agar kurus\n</string>
+    <string name="SpoilerMateri42_7_1">7.	Darah rendah / hipotensi</string>
+    <string name="SpoilerMateri42_7_2">tekanan darah di bawah angka normal karena rendahnya kemampuan jantung dalam memompa darah, sehingga mudah lelah, mual, pandangan kabur, pusing, bahkan pingsan. Tekanan darah normal adalah 120/80 mmHg sedangkan penderita hipotensi mencapai titik rendah &lt; 90/60 mmHg. Solusinya dengan istirahat cukup (8 jam per hari), olahraga teratur misal berjalan pagi 30 menit (untuk melancarkan tekanan dan peredaran darah), makan makanan bergizi seimbang.\n</string>
+
+    <!--5 Pop up-->
+    <string name="PopUpLuarPria">Alat Kelamin Luar Pria</string>
+    <string name="PopUpDalamPria">Alat Kelamin Dalam Pria</string>
+    <string name="PopUpLuarWanita">Alat Kelamin Luar Wanita</string>
+    <string name="PopUpDalamWanita">Alat Kelamin Dalam Wanita</string>
+    <!--5-->
+    <string name="SpoilerMateri51">Organ reproduksi pria\n</string>
+    <string name="SpoilerMateri51_1">Organ reproduksi pria berfungsi untuk menghasilkan sperma (gametogenesis) dan menyalurkan sperma ke wanita melalui hubungan seksual. Organ reproduksi pria terdiri atas organ reproduksi luar dan organ reproduksi dalam. Organ reproduksi luar berupa penis dan skrotum. Organ reproduksi dalam berupa testis, saluran kelamin, dan kelenjar kelamin.\n</string>
+    <string name="SpoilerMateri51_2">1)	Alat kelamin luar\n</string>
+    <string name="SpoilerMateri51_2_1">a)	Penis</string>
+    <string name="SpoilerMateri51_2_1_1">merupakan alat koitus (persetubuhan) untuk memasukkan sperma ke dalam kelamin wanita\n</string>
+
+    <string name="SpoilerMateri51_2_2_1">b)	Skrotum (kantong pelir)</string>
+    <string name="SpoilerMateri51_2_2_2">merupakan kantong pelindung testis yang terdapat otot polos dan lurik\n</string>
+    <string name="SpoilerMateri51_3">2)	Alat kelamin dalam\n</string>
+    <string name="SpoilerMateri51_3_1">a)	Testis (gonad jantan)</string>
+    <string name="SpoilerMateri51_3_11">Sepasang testis terletak di dalam skrotum yang berfungsi memproduksi sperma dan testosteron (hormone kelamin pria)\n </string>
+    <string name="SpoilerMateri51_3_2">b)	Saluran kelamin</string>
+    <string name="SpoilerMateri51_3_21">Meliputi epididymis (saluran berkelok-kelok dalam skrotum yang keluar dari testis untuk penyimpanan sperma sementara), vas deferens (saluran kelanjutan epididymis sebagai saluran yang dilalui sperma untuk menuju kantong sperma), saluran ejakulasi (saluran penghubung vesikula seminalis dengan uretra yang berfungsi mengeluarkan sperma menuju uretra), dan uretra (saluran kelamin dari vesikula seminalis dan saluran urine dari kantong kemih).\n</string>
+    <string name="SpoilerMateri51_3_3">c)	Kelenjar kelamin</string>
+    <string name="SpoilerMateri51_3_31">Selama perjalanan sperma di dalam saluran kelamin, terjadi penambahan cairan-cairan kelamin untuk mempertahankan hidup dan gerakan sperma. Cairan tersebut meliputi vesikula seminalis (sumber energi, memudahkan sperma, dan menormalkan keasaman saluran reproduksi wanita), kelenjar prostat (memberikan suasana basa pada cairan sperma, mengandung kolesterol, garam, dan fosfolipid), dan kelenjar cowper/bulbouretra (bersifat basa yang berhubungan langsung dengan uretra).\n
+</string>
+
+    <string name="SpoilerMateri52">Organ reproduksi wanita</string>
+    <string name="SpoilerMateri52_1">Organ reproduksi wanita terdiri atas organ kelamin luar dan organ kelamin dalam. Sistem reproduksi wanita tersusun atas serangkaian alat yang juga menjadi tempat berlangsungnya pembentukan ovum, fertilisasi, kehamilan, dan persalinan.\n</string>
+    <string name="SpoilerMateri_521">1)	Alat Kelamin Luar\n</string>
+    <string name="SpoilerMateri52_3_1">\ta)	Vulva</string>
+    <string name="SpoilerMateri52_3_11">merupakan celah paling luar dari alat kelamin wanita yang terdapat saluran urin dan reproduksi\n</string>
+    <string name="SpoilerMateri52_3_2">\tb)	Labium</string>
+    <string name="SpoilerMateri52_3_21">merupakan bagian yang membatasi vulva, terdiri dari labium mayora (di luar) dan labium minora (di sebelah dalam). Antara labium mayor dan minor terdapat tonjolan yang disebut klitoris (mengandung banyak pembuluh darah).\n</string>
+    <string name="SpoilerMateri52_3_3">2)	Alat Kelamin Dalam\n</string>
+    <string name="SpoilerMateri52_3_4">\ta)	Saluran Kelamin</string>
+    <string name="SpoilerMateri52_3_41">terdiri atas vagina (saluran akhir organ reproduksi wanita yang mengandung banyak lender dari kelenjar Bartholin), uterus (rahim, tempat pertumbuhan dan perkembangan embrio), dan tuba fallopi (sepasang saluran, tempat terjadinya fertilisasi)\n</string>
+    <string name="SpoilerMateri52_3_5">\tb)	Ovarium </string>
+    <string name="SpoilerMateri52_3_51">merupakan penghasil ovum (sel telur)\n</string>
+    <string name="SpoilerMateri53">Memelihara kesehatan organ reproduksi</string>
+
+    <!--6-->
+    <string name="SpoilerMateri61">Keputihan pada wanita</string>
+    <string name="SpoilerMateri61_1">Keputihan adalah keluarnya cairan dari vagina (sekresi vaginal)\n</string>
+    <string name="SpoilerMateri61_2_1">Keputihan dikatakan normal jika</string>
+    <string name="SpoilerMateri61_2_2">1.	Encer, bening, tidak berwarna, tidak berbau, tidak menyebabkan gatal\n
+2.	Setelah letih berkerja\n
+3.	Tidak cocok dengan pakaian dalam\n
+4.	Mendapat haid pertama (menarche)\n
+5.	Menjelang haid\n
+6.	Saat masa subur (ovulasi)\n
+7.	Mengidap penyakit menahun\n
+8.	Terangsang seksual\n
+</string>
+    <string name="SpoilerMateri61_3_1">Keputihan tidak normal</string>
+    <string name="SpoilerMateri61_3_2">1.	Pekat, berwarna (kuning, cokelat, hijau, atau abu-abu), menyebabkan gatal, dan berbau\n
+2.	Karena jamur/kuman : menyebabkan gatal, berbau, warna agak hijau meninggalkan bekas di celana dalam\n
+3.	Karena tumor atau kanker kandungan : disertai bercak darah dan bau busuk\n
+4.	Karena ada benda asing di vagina\n
+5.	Karena terlalu sering membersihkan vagina dengan bahan antiseptis sehingga kuman yang baik ikut terbunuh dan tidak lagi masam\n
+6.	Karena kencing nanah (gonorrhea dan chlamydia)\n
+    </string>
+    <string name="SpoilerMateri61_4_1">Mencegah keputihan</string>
+    <string name="SpoilerMateri61_4_2">olahraga, menghindari stress, memakai celana dalam yang menyerap keringat (katun atau kaus) dan tidak ketat, mengganti celana dalam jika basah, mengelap alat kelamin setelah buang air, konsumsi sayuran hijau\n</string>
+
+    <string name="SpoilerMateri62">Kesehatan Gigi dan Mulut</string>
+    <string name="SpoilerMateri62_1">Permasalahan kesehatan gigi dan mulut yang biasa dialami remaja adalah gigi berlubang / karies, posisi gigi tidak beraturan / gingsul, pewarnaan pada gigi, gusi berdarah, sariawan, dan bau mulut\n
+Cara merawat gigi dan mulut:\n
+1.	Mengontrol konsumsi makanan yang tinggi gula\n
+2.	Memilih sikat gigi yang tepat sesuai ukuran mulut\n
+3.	Sikat gigi 2 kali sehari untuk menghilangkan bakteri: setelah makan pagi dan sebelum tidur malam, terutama bagi yang memakai kawat gigi\n
+4.	Konsumsi vitamin C untuk meningkatkan kekebalan tubuh\n
+5.	Menambal jika ada gigi yang berlubang\n
+6.	Menghilangkan kebiasaan merokok\n
+7.	Kontrol ke dokter gigi minimal 6 bulan sekali\n
+</string>
+    <string name="SpoilerMateri63">Merawat Kuiit</string>
+    <string name="SpoilerMateri63_1">Konsumsi air putih untuk menjaga kelembaban kulit, mandi 2 kali sehari\n
+1.	Normal\n
+Kulit yang tidak berminyak, kering, maupun sensitive\n
+Tips : pilih pelembab yang tidak terlalu berat\n
+2.	Berminyak\n
+Pori-pori kulit besar dan mengkilap, mudah berjerawat\n
+Tips : seka wajah dengan tissue setelah merias wajah, cuci tangan sebelum mencuci muka agar kotoran di tangan tidak masuk ke kulit wajah, tidak memencet jerawat karena akan menambah radang\n
+3.	Kering\n
+Terlihat tidak mulus dan merah di berbagai tempat, jarang berjerawat\n
+Tips : gunakan pelembab di wajah, gunakan sunscreen ber-SPF tinggi\n
+4.	Sensitif\n
+Cepat bereaksi terhadap perubahan suhu, riasan wajah, atau sabun\n
+Tips: gunakan produk kosmetik yang tanpa pewangi\n
+</string>
+
+    <string name="SpoilerMateri64">Merawat rambut</string>
+    <string name="SpoilerMateri64_1">mencuci rambut terutama jika berkeringat berlebih, memijat kulit kepala, mencuci aksesoris yang digunakan untuk rambut, mengobati ketombe\n</string>
+    <string name="SpoilerMateri65">Merawat kuku</string>
+    <string name="SpoilerMateri65_1">menggunting kuku agar tidak menjadi tempat telur cacing, memastikan kuku terbebas dari minyak, mencuci tangan agar kuman mati\n</string>
+    <string name="SpoilerMateri66">Merawat bibir</string>
+    <string name="SpoilerMateri66_1">menggunakan pelembab bibir (lip balm), hindari lipstick yang bertanda BHA, konsumsi sayuran dan buah yang kayak vitamin C dan E\n</string>
+    <string name="SpoilerMateri67">Merawat kaki</string>
+    <string name="SpoilerMateri67_1">merendam kaki dengan air hangat plus garam, menggunakan ukuran sepatu yang pas, mencuci kaki setelah beraktivitas untuk mencegah bau yang tidak sedap, menggunting kuku kaki\n</string>
+    <!--7-->
+    <string name="SpoilerMateri71">a.	Gizi buruk</string>
+    <string name="SpoilerMateri71_1">anemia dan kurang energi kronis (KEK)\n</string>
+    <string name="SpoilerMateri72">b.	Masalah pendidikan</string>
+    <string name="SpoilerMateri72_1">buta huruf yang mengakibatkan remaja tidak memiliki akses informasi yang dibutuhkan dan pendidikan rendah yang mengakibatkan remaja kurang mampu memenuhi kebutuhan fisik dasar ketika berkeluarga\n</string>
+    <string name="SpoilerMateri73">c.	Kenakalan remaja</string>
+    <string name="SpoilerMateri73_1">berkelahi, membolos, mengendarai mobil tanpa SIM, mengambil barang orang tua tanpa izin, pembunuhan\n</string>
+    <string name="SpoilerMateri74">d.	Masalah seksualitas</string>
+    <string name="SpoilerMateri74_1">-	pengetahuan yang tidak lengkap dan mitos yang tidak benar\n
+-	kurang bimbingan positif dalam hal seksualitas\n
+-	kekerasan seksual (pemerkosaan, pelecehan seksual, transaksi seks komersial / PSK)\n
+-	penyalahgunaan narkotika, psikotropika, dan zat adiktif (NAPZA) yang menyebabkan kecanduan\n
+-	perilaku pacaran berisiko seperti KNPI (kissing / bericiuman, necking / berpelukan, petting / memegang alat vital pasangan, and intercourse / berhubungan seksual-bersetubuh) yang memicu kehamilan remaja di luar nikah sehingga aborsi yang tidak aman dan terjadi kematian ibu-bayi\n
+-	infeksi menular seksual (HIV/AIDS, sifilis, herpes, dan lainnya)\n
+\n</string>
+
+    <string name="SpoilerMateri75">Akibat seks pra-nikah</string>
+    <string name="SpoilerMateri75_1">1.	Bagi remaja</string>
+    <string name="SpoilerMateri75_1_1">a.	Remaja laki-laki tidak perjaka dan remaja wanita tidak perawan\n
+b.	Berisiko tertular penyakit menular seksual\n
+c.	Remaja putri terancam aborsi yang memicu infeksi organ reproduksi, anemia, rahim robek, pendarahan, bahkan kanker payudara (ketidakseimbangan hormon)\n
+d.	Trauma kejiwaan / depresi, merasa bersalah, menjadi ibu tunggal karena pasangan tidak mau menikahi\n
+e.	Hilang kesempatan untuk melanjutkan pendidikan dan berkerja\n
+f.	Melahirkan bayi yang kurang sehat\n
+</string>
+    <string name="SpoilerMateri75_2">2.	Bagi keluarga</string>
+    <string name="SpoilerMateri75_2_1">a.	Menambah beban ekonomi\n
+b.	Menimbulkan aib keluarga\n
+c.	Adanya tekanan / ejekan dari masyarakat\n
+</string>
+
+    <string name="SpoilerMateri75_3">3.	Bagi masyarakat</string>
+    <string name="SpoilerMateri75_3_1">a.	Kualitas masyarakat menurun karena bertambahnya angka remaja yang putus sekolah\n
+b.	Meningkatkan kematian ibu dan bayi\n
+c.	Meningkatkan beban ekonomi masyarakat\n
+</string>
+    <string name="SpoilerMateri76">Mencegah perilaku seksual remaja berisiko</string>
+    <string name="SpoilerMateri76_1">1.	Mengikis kemiskinan agar remaja tidak dilacurkan\n
+2.	Menyediakan informasi kesehatan reproduksi dengan sumber yang tepat\n
+3.	Mengembangkan pendidikan remaja sebaya\n
+4.	Kontrol akses media massa dan hiburan\n
+5.	Menciptakan lingkungan keluarga yang kodusif\n
+6.	Mengurangi besarnya dorongan biologis : menghindari membaca buku, melihat film, atau majalah porno yang bisa merangsang nafsu birahi, membiasakan berpakaian sopan dan tidak merangsang, serta membuat kelompok kegiatan positif seperti mengikuti ekstrakurikuler\n
+7.	Meningkatkan kemampuan mengendalikan dorongan biologis : pendidikan agama dan budi pekerti\n
+8.	Membuka informasi kesehatan reproduksi bagi remaja : komunikasi, informasi, edukasi, dan konseling kesehatan reproduksi remaja\n
+9.	Menghilangkan kesempatan melakukan hubungan seksual pranikah : orang tua memberikan kebebasan yang terkendali dan memantau remajanya agar terarahkan ke kegiatan yang positif, serta dukungan pemerintah dalam pengawasan pasangan di tempat wisata dan hotel\n
+</string>
+
+    <!--8-->
+
+    <string name="teksMateri8">Infeksi Menular Seksual atau IMS adalah penyakit infeksi yang ditularkan melalui hubungan seksual. Beberapa penyakit yang banyak ditemukan di Indonesia yaitu:\n</string>
+    <string name="SpoilerMateri81_1">a.	Gonore</string>
+    <string name="SpoilerMateri81_2">disebabkan oleh bakteri Neisseria gonorrheae. Pada pria, gejala meliputi rasa nyeri saat berkemih (disuria), keluarnya sekret kuning kehijauan, dan pembengkakan pada penis, sedangkan pada wanita, 60% kasusnya tidak ada gejala, dan sisanya mengalami gejala seperti keputihan dan rasa nyeri di daerah pelvis\n</string>
+    <string name="SpoilerMateri82_1">b.	Sifilis / raja singa</string>
+    <string name="SpoilerMateri82_2">disebabkan oleh infeksi bakteri Treponema pallidum. Masa inkubasi berkisar 2-6 minggu, dan dapat mencapai 13 minggu setelah masuknya kuman melalui hubungan seks. Gejala pada tahap infeksi primer umumnya ringan, hanya berupa benjolan yang tidak nyeri dan gejala seperti flu yang hilang tanpa diobati. Gejala sekunder disebut masa laten, pada saat ini hanya ditemukan bercak-bercak kemerahan di tubuh. Masa laten dapat berlangsung 2 hingga 3 tahun. Selanjutnya gejala tersier akan muncul pada tahun kelima hingga kesepuluh, yang bermanifestasi sebagai kelainan saraf, pembuluh darah, dan jantung\n</string>
+    <string name="SpoilerMateri83_1">c.	Herpes genitalis</string>
+    <string name="SpoilerMateri83_2">disebabkan oleh infeksi virus Herpes simplex. Gejala yang ditimbulkan adalah badan terasa panas dan rasa sakit bila bagian yang terinfeksi disentuh, munculnya bintil-bintil berair dan berkelompok yang nyeri di sekitar alat kelamin dan rasa sakit bila bagian yang terinfeksi disentuh, dan kemudian dapat pecah, mengering dan menghilang. Bintil-bintil ini dapat kambuh kembali apabila ada faktor pencetus, dan umumnya akan hilang timbul seumur hidup\n</string>
+    <string name="SpoilerMateri84_1">d.	Klamidia</string>
+    <string name="SpoilerMateri84_2">keputihan abnormal akibat infeksi bakteri Chlamydia trachomatis disertai rasa nyeri saat kencing. Penularannya melalui hubungan seksual\n</string>
+    <string name="SpoilerMateri85_1">e.	HIV/AIDS</string>
+    <string name="SpoilerMateri85_2">HIV atau Human Immunodeficiency Virus adalah virus yang menyerang sistem kekebalan tubuh manusia. Virus ini menyerang leukosit, terutama pada sel CD4 yang merupakan bagian dari sel limfosit T. Fase akhir dari infeksi HIV disebut AIDS (Acquired Immune Deficiency Syndrome), yang merupakan kumpulan penyakit yang timbul akibat kekebalan tubuh yang sangat rendah, seperti tuberkulosis, pneumonia, dan infeksi jamur sistemik. Virus ini menular melalui cairan tubuh, yaitu darah, sperma, dan air susu ibu. Jalur transmisi HIV adalah melalui hubungan seksual dengan orang yang terinfeksi, penggunaan jarum suntik yang tidak steril dan berganti-gantian pada penyalahguna narkotika dan obat-obatan terlarang, transfusi darah dari orang yang terinfeksi, serta transmisi ibu ke anak melalui plasenta (in utero), jalan lahir, maupun air susu ibu\n</string>
+
+    <string name="SpoilerMateri86_1">Penyebab infeksi saluran reproduksi</string>
+    <string name="SpoilerMateri86_2">1.	Sisa kotoran yang tertinggal akibat pembasuhan buang air yang tidak sempurna\n
+2.	Kurangnya kebersihan alat kelamin, terutama saat menstruasi\n
+3.	Perkawinan usia dini (&lt;20 tahun)\n
+4.	Bergonta-ganti pasangan seksual\n
+5.	Berhubungan seksual dengan penderita infeksi\n
+6.	Luka saat keguguran, melahirkan, atau pemerkosaan\n
+7.	Alat kesehatan yang tidak steril, misal jarum suntik\n
+</string>
+
+    <string name="SpoilerMateri88_1">Hal penting tentang penyakit menular seksual (PMS)</string>
+    <string name="SpoilerMateri88_2">1.	Dapat terjadi pada laki-laki maupun perempuan\n
+2.	Jika tidak memakai kondom, penularan dapat terjadi walaupun hanya 1 kali berhubungan seksual\n
+3.	Infeksi pada organ reproduksi wanita sering tersembunyi sehingga sulit dideteksi dini\n
+4.	Jika langsung diobati, kemandulan bisa dicegah\n
+5.	Belum ada vaksin untuk imunisasi penyakit seksual\n
+</string>
+
+    <string name="SpoilerMateri89_1">Orang yang berisiko tinggi tertular PMS</string>
+    <string name="SpoilerMateri89_2">1.	Sering bergonta-ganti pasangan seksual\n
+2.	Penularan dari ibu ke janin\n
+3.	Pemakaian alat suntik secara bersama-sama dan bergantian\n
+4.	Tidak memakai kondom saat berhubungan seksual dengan penderita\n
+</string>
+
+    <string name="SpoilerMateri87_1">Wanita lebih rentan terinfeksi dibanding laki-laki karena</string>
+    <string name="SpoilerMateri87_2">1.	Permukaan saluran reproduksi wanita lebih luas\n
+2.	Jarak saluran reproduksi dengan kontak luar lebih pendek\n
+3.	Infeksi pada wanita tidak selalu menunjukkan gejala, sehingga telah terjadi komplikasi saat sudah diketahui\n
+4.	Dinding vagina dan leher rahim langsung terpapar sperma saat berhubungan seksual sehingga wanita bisa terinfeksi\n
+5.	Enggan mencari pengobatan karena malu\n
+</string>
+
+    <string name="SpoilerMateri810_1">Pencegahan Penyakit Menular Seksual</string>
+    <string name="SpoilerMateri810_2">1.	ABCDE:\n
+A = abstinensia = tidak berhubungan seksual di luar nikah\n
+B = be faithful = setia pada pasangan yang sah\n
+C = condom = menggunakan kondom\n
+D = drugs = hindari NAPZA\n
+E = equipment =  peralatan kesehatan yang steril\n
+2.	Pencegahan penularan melalui darah : skrining donor darah dan menggunakan alat suntik yang steril\n
+3.	Pencegahan penularan dari ibu ke anak : konseling ibu hamil, pemberian obat antiretroviral (ARV) bagi ibu hamil yang HIV/AIDS\n
+4.	Menjaga kebersihan organ reproduksi : \n
+5.	Pemeriksaan dini bila ada keluhan yang dicurigai\n
+6.	Menghindari hubungan seksual bila terdapat gejala seperti borok atau nanahn\n
+\n</string>
+
+
+    <!--9-->
+    <string name="SpoilerMateri91">Proses Pertumbuhan dan Perkembangan Reproduksi remaja</string>
+    <string name="SpoilerMateri91_1_1">Ereksi</string>
+    <string name="SpoilerMateri91_1_2">membesar atau menegangnya penis karena rangsangan sehingga pembuluh darah memenuhi corpora cavernosa\n</string>
+
+    <string name="SpoilerMateri91_2_1">Ejakulasi</string>
+    <string name="SpoilerMateri91_2_2">keluarnya sperma setelah terjadi ereksi, bisa terjadi secara alami melalui mimpi basah\n</string>
+
+    <string name="SpoilerMateri91_3_1">Mimpi basah</string>
+    <string name="SpoilerMateri91_3_2">keluarnya air mani (yang berisi sperma) di saat remaja laki-laki tidur yang dipicu dengan bermimpi erotis hubungan seksual ataupun tidak, yang menandakan laki-laki sudah pubertas / baligh\n</string>
+
+    <string name="SpoilerMateri91_4_1">Menstruasi</string>
+    <string name="SpoilerMateri91_4_2">keluarnya darah dari rahim karena lapisan rahim yang bernama endometrium luruh (terdapat banyak pembuluh darah), sebabnya adalah sel telur yang tidak dibuahi oleh sperma\n</string>
+
+    <string name="SpoilerMateri91_5_1">Ejakulasi dini</string>
+    <string name="SpoilerMateri91_5_2">pria mengeluarkan air mani setelah melakukan aktivitas seksual namun stimulasi penisnya dalam waktu yang minimal (singkat) / klimaks dini/ ejakulasi yang premature\n</string>
+
+    <string name="SpoilerMateri91_6_1">Impotensi (disfungsi ereksi)</string>
+    <string name="SpoilerMateri91_6_2">ketidakmampuan berulang pada pria dalam mencapai ereksi untuk berhubungan seksual\n</string>
+
+    <string name="SpoilerMateri91_7_1">Pheromone / feromon</string>
+    <string name="SpoilerMateri91_7_2">Zat yang berasal dari kelenjar endokrin, secara alami dikeluarkan tubuh pada masa subur dan disebarkan melalui udara untuk menarik perhatian lawan jenis (zat pemikat). Bau pheromone bereaksi dengan hormone estrogen (wanita) dan testosterone (pria) sehingga menimbulkan rasa cinta/tertarik. Zat ini juga dipancarkan pada saat ovulasi sehingga memperlambat siklus haid yang mencium. Dampaknya wanita yang tinggal berdekatan (misal sekamar) dalam waktu dekat ikut mengalami menstruasi\n</string>
+
+    <string name="SpoilerMateri91_8_1">Libido</string>
+    <string name="SpoilerMateri91_8_2">gairah seksual / keinginan individual untuk terlibat dalam aktivitas seksual. Lawan kata dari libido adalah destrudo\n</string>
+
+    <string name="SpoilerMateri91_9_1">Onani/Masturbasi</string>
+    <string name="SpoilerMateri91_9_2">menyentuh / merangsang alat kelamin sendiri dengan tujuan mencapai kepuasan tanpa pasangan yang sah\n</string>
+
+    <string name="SpoilerMateri91_10_1">Incest</string>
+    <string name="SpoilerMateri91_10_2">hubungan seksual yang terjadi antara anggota keluarga yang memiliki hubungan pertalian darah. Penyebab : pemahaman agama yang kurang, tidak mampu mengendalikan nafsu seksual, gangguan kepribadian menyimpang, atau adat-istiadat. Pencegahan : pendidikan agama sebagai landasan moral, pemisahan tidur antara orang tua dengan anak, peningkatan pendidikan secara umum\n</string>
+
+    <string name="SpoilerMateri91_11_1">Pekerja Seks Komersial (PSK) atau Wanita Tuna Susila (WTS)</string>
+    <string name="SpoilerMateri91_11_2">setiap orang yang memperjualbelikan seks dengan tujuan berbagai macam keuntungan seperti uang, tanpa keterlibatan emosi. Penyebab : kesulitan ekonomi, nafsu seks yang abnormal, pergaulan bebas, membayar narkoba dengan hubungan seks\n</string>
+
+    <string name="SpoilerMateri92">Fase menstruasi</string>
+
+    <string name="SpoilerMateri92_1_1">Menstruasi</string>
+    <string name="SpoilerMateri92_1_2">2 hingga 6 hari, pada saat ini endometrium lepas dan meluruh sehingga timbul perdarahan\n</string>
+
+    <string name="SpoilerMateri92_2_1">Fase proliferase / folikel</string>
+    <string name="SpoilerMateri92_2_2">Tahapan ini dimulai setelah perdarahan berakhir, dan berlangsung hingga saat ovulasi. Fase ini berguna untuk menumbuhkan endometrium agar siap menerima ovum yang dibuahi. Bersamaan dengan fase ini, terjadi pematangan folikel sel telur di ovarium\n</string>
+
+    <string name="SpoilerMateri92_3_1">Fase sekresi / ovulasi/ masa subur</string>
+    <string name="SpoilerMateri92_3_2">kelanjutan dari fase proliferasi. Selama 11-13 hari, terbentuk korpus luteum dan juga penebalan kelenjar endometrium. Apabila tidak terjadi pembuahan pada sel telur yang matang, maka korpus luteum tidak lagi berkembang. Tingginya hormon estradiol serta progesteron menyebabkan penyempitan pembuluh darah di uterus, dan terjadi iskemi endometrium yang berujung dengan lepasnya kembali endometrium\n</string>
+
+    <string name="SpoilerMateri92_4_1">Fase pra-menstruasi / pasca-ovulasi / luteal</string>
+    <string name="SpoilerMateri92_4_2">berlangsung selama 3 hari sebelum kembali pada fase menstruasi. Pada umumnya, siklus menstruasi berlangsung normal dan teratur tiap 28 hari\n</string>
+
+    <string name="SpoilerMateri93">Keluhan terkait menstruasi</string>
+
+    <string name="SpoilerMateri93_1_1">1.	Premenstrual tension</string>
+    <string name="SpoilerMateri93_1_2">Ketegangan sebelum menstruasi seperti gangguan emosional, payudara sakit, tegang, atau tertekan\n
+Terapi : olahraga teratur (misal 30 menit berjalan pagi), pembatasan konsumsi garam, kopi, alkohol, lemak, konsumsi makanan yang bergizi seimbang\n
+</string>
+
+    <string name="SpoilerMateri93_2_1">2.	Mastodinia / mastalgia</string>
+    <string name="SpoilerMateri93_2_2">Tegang pada payudara menjelang menstruasi\n
+Penyebab : hormone estrogen mendominasi sehingga terjadi retensi air dan garam serta hyperemia di daerah payudara\n
+</string>
+
+    <string name="SpoilerMateri93_3_1">3.	Mittelschmerz</string>
+    <string name="SpoilerMateri93_3_2">Rasa nyeri saat ovulasi (masa subur)\n
+Penyebab : pecahnya folikel Graff\n
+</string>
+
+    <string name="SpoilerMateri93_4_1">4.	Dismenore</string>
+    <string name="SpoilerMateri93_4_2">Nyeri perut / kram rahim saat menstruasi\n
+        Penyebab : kontraksi otot endometrium pada rahim (disritmik myometrium)\n
+        Terapi : istirahat dengan rileks, tinggikan posisi pinggul melebihi bahu, kompres dengan botol yang berisi air panas di bagian bawah perut atau pemberian obat pereda nyeri\n
+        Pencegahan : olahraga teratur untuk mengeluarkan hormone endofrin (pereda nyeri), pembatasan konsumsi garam dan kafein, makan makanan yang bergizi\n
+</string>
+    <string name="SpoilerMateri94">Seks dan gender</string>
+    <string name="SpoilerMateri94_1">1.	Emansipasi : kesetaraan peran, kedudukan, tanggung jawab laki-laki dan perempuan dalam segala aspek kehidupan\n
+2.	Feminism : ciri, karakter, sikap, perilaku yang banyak dimiliki perempuan\n
+3.	Maskulin : ciri, karakter, sikap, perilaku yang banyak dimiliki laki-laki\n
+4.	Bias gender : anggapan yang tidak mengakui persamaan peran, kedudukan, tanggung jawab laki-laki dan perempuan dalam masyarakat\n
+5.	Kesetaraan gender : suasana yang adil dan setara dalam hubungan kerja sama antara laki-laki dengan perempuan\n
+</string>
+
+    <string name="SpoilerMateri95">Landasan agama untuk tidak melakukan hubungan seks pra-nikah</string>
+    <string name="SpoilerMateri95_1_1">Dalam Al-Qur’an Al-Mu’minun ayat 1,5,6, dan 7</string>
+    <string name="SpoilerMateri95_1_2">“Sungguh beruntung orang-orang yang beriman, …, dan orang yang memelihara kemaluannya, kecuali terhadap istri-istri mereka atau hamba sahaya yang mereka miliki; maka sesungguhnya mereka tidak tercela. Tetapi barang siapa mencari di balik itu (zina, homoseksual, dan sebagainya), maka mereka itulah orang-orang yang melampaui batas”\n</string>
+
+    <string name="SpoilerMateri95_2_1">Dalam Alkitab Korintus 7 Ayat 2</string>
+    <string name="SpoilerMateri95_2_2">“Hendaklah pria memiliki istrinya sendiri dan perempuan punya suaminya sendiri agar terhindar dari pencabulan”\n
+Dengan kata lain hubungan seks hanya boleh dilakukan oleh suami-istri yang sudah terikat dalam satu perkawinan\n
+</string>
+
+    <string name="SpoilerMateri95_3_1">Dalam kitab Weda Smerti Bab IX Seloka 96</string>
+    <string name="SpoilerMateri95_3_2">“Prajanartha striyah srstah, Samtanartham ca manawah, tasmat sadharano dharmah, Srutaupatnya sahaditah”\n
+Artinya, untuk menjadi ibu, wanita diciptakan dan untuk menjadi ayah, pria diciptakan dan peresmiannya melalui upacara keagamaan yaitu samskara wiwaha dalam kebersamaan hidupnya menjadi suami isteri.\n
+</string>
+
+
+    <!--Soal-->
+    <string-array name="soal1">
+        <item>Yang bukan termasuk hak-hak kesehatan reproduksi remaja …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan1">
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan1">
+        <item>A. Hak mendapatkan konseling</item>
+        <item>B. Hak berpolitik terkait kespro</item>
+        <item>C. Hak berhubungan seksual pranikah</item>
+        <item>D. Hak kebebasan berfikir tentang kespro</item>
+    </string-array>
+    <string-array name="penjelasanjawaban1">
+        <item>Pendidikan kesehatan reproduksi justru mencegah terjadinya seks pranikah (kehamilan tidak diinginkan / KTD)\n</item>
+    </string-array>
+
+    <integer-array name="jawabankuis1">
+        <item>2</item>
+    </integer-array>
+
+
+    <!--Soal2-->
+    <string-array name="soal2">
+        <item>Perubahan primer akibat dari hormone testosterone pada lelaki ditandai dengan …\n</item>
+        <item>Peristiwa keluarnya darah dari vagina sebagai tanda pubertas disebut dengan …\n</item>
+        <item>Yang bukan merupakan perubahan fisik pada remaja perempuan adalah …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan2">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="pilihan2">
+        <item>A. Masturbasi</item>
+        <item>B. Mimpi basah</item>
+        <item>C. Menstruasi</item>
+        <item>A. Masturbasi</item>
+        <item>B. Mimpi basah</item>
+        <item>C. Menstruasi</item>
+        <item>A. Payudara membesar</item>
+        <item>B. Pinggul melebar</item>
+        <item>C. Dada membidang</item>
+    </string-array>
+    <string-array name="penjelasanjawaban2">
+        <item>Laki-laki mengalami mimpi basah dengan mengeluarkan air mani sebagai tanda pubertas\n</item>
+        <item>Perempuan memiliki vagina yang jika sel telurnya tidak dibuahi oleh sperma, maka dinding endometrium akan meluruh yang disebut dengan haid/menstruasi\n</item>
+        <item>Dada membidang adalah ciri perubahan sekunder pada laki-laki\n</item>
+
+    </string-array>
+
+    <integer-array name="jawabankuis2">
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+
+
+    <!--Soal3-->
+    <string-array name="soal3">
+        <item>Menarche adalah …\n</item>
+        <item>Hormone yang tidak terdapat pada remaja laki-laki …\n</item>
+        <item>Hormone yang diproduksi testis, berperan dalam pembentukan sperma dan penampakan ciri sekunder pria adalah…\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan3">
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan3">
+        <item>A. Menstruasi terakhir yang dialami wanita menginjak menopause</item>
+        <item>B. Menstruasi pertama yang dialami wanita saat pubertas</item>
+        <item>C. Mimpi basah pertama yang dialami pria saat pubertas</item>
+        <item>A. Estrogen</item>
+        <item>B. FSH</item>
+        <item>C. LH</item>
+        <item>D. Prolactin</item>
+        <item>A. Estrogen</item>
+        <item>B. FSH</item>
+        <item>C. LH</item>
+        <item>D. Testosterone</item>
+    </string-array>
+    <string-array name="penjelasanjawaban3">
+        <item>Menarche adalah istilah untuk menstruasi pertama yang dialami wanita sebagai tanda pubertas\n</item>
+        <item>Prolactin hanya terdapat pada ibu yang hamil/menyusui\n</item>
+        <item>Testosterone diproduksi testis, berperan dalam spermatogenesis (sehingga laki-laki mimpi basah) dan penampakan ciri sekunder pria\n</item>
+
+    </string-array>
+
+    <integer-array name="jawabankuis3">
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+
+    <!--Soal4-->
+    <string-array name="soal4">
+        <item>Kadar hemoglobin normal untuk remaja putri adalah … gr&#37;\n</item>
+        <item>Seorang remaja memiliki tekanan darah 90/60 mmHg. Kategori tekanan darah remaja tersebut adalah …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan4">
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="pilihan4">
+        <item>A. 10&#8211;14</item>
+        <item>B. 12&#8211;16</item>
+        <item>C. 14&#8211;18</item>
+        <item>A. Rendah</item>
+        <item>B. Normal</item>
+        <item>C. Tinggi</item>
+    </string-array>
+    <string-array name="penjelasanjawaban4">
+        <item>Opsi A termasuk anemia. Opsi C adalah kadar hemoglobin normal bagi laki-laki.\n</item>
+        <item>Tekanan darah normal adalah 120/80 mmHg\n</item>
+
+    </string-array>
+
+    <integer-array name="jawabankuis4">
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+
+    <!--Soal6-->
+    <string-array name="soal6">
+        <item>Keputihan dikatakan normal jika …\n</item>
+        <item>Akibat kuku tidak dipotong jika panjang adalah …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan6">
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan6">
+        <item>A. Akibat kelelahan</item>
+        <item>B. Ada bercak darah</item>
+        <item>C. Berwarna kuning atau hijau</item>
+        <item>D. Berbau</item>
+        <item>A. Marasmus</item>
+        <item>B. Infeksi saluran reproduksi</item>
+        <item>C. Kurang gizi</item>
+        <item>D. Cacingan</item>
+
+    </string-array>
+    <string-array name="penjelasanjawaban6">
+        <item>Opsi b,c, dan d merupakan salah satu keputihan yang tidak normal\n</item>
+        <item>Kuku yang kotor menjadi tempat telur cacing yang jika masuk dan menetas di dalam perut akan menyebabkan cacingan\n</item>
+
+    </string-array>
+
+    <integer-array name="jawabankuis6">
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+
+
+    <!--Soal7-->
+    <string-array name="soal7">
+        <item>Narkotika menyebabkan kecanduan sehingga disebut zat …\n</item>
+        <item>Tahap tidak aman pada pacaran yang bisa menyebabkan kehamilan di luar nikah adalah …\n</item>
+        <item>Dampak kehamilan di luar nikah bagi <u>keluarga</u> adalah …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan7">
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan7">
+        <item>A. Aditif</item>
+        <item>B. Adiktif</item>
+        <item>C. Karsinogen</item>
+        <item>A. Kissing</item>
+        <item>B. Intercourse</item>
+        <item>C. Necking</item>
+        <item>D. Petting</item>
+        <item>A. Menambah aib</item>
+        <item>B. Meningkatkan kematian ibu dan bayi</item>
+        <item>C. Wanita tidak lagi perawan dan lelaki tidak lagi perjaka</item>
+        <item>D. Aborsi tidak aman</item>
+
+    </string-array>
+    <string-array name="penjelasanjawaban7">
+        <item>Aditif adalah zat penambah pada makanan untuk meningkatkan cita rasa. Karsinogen adalah zat pemicu kanker.\n</item>
+        <item>Perilaku pacaran berisiko antara lain KNPI (kissing / bericiuman, necking / berpelukan, petting / memegang alat vital pasangan, and intercourse / berhubungan seksual-bersetubuh) yang memicu kehamilan remaja di luar nikah, aborsi tidak aman, dan terjadi kematian ibu-bayi\n</item>
+        <item>Opsi B adalah dampak bagi masyarakat. Opsi C dan D adalah dampak bagi pelaku seks di luar nikah\n</item>
+    </string-array>
+
+    <integer-array name="jawabankuis7">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+
+    <!--Soal9-->
+    <string-array name="soal9">
+        <item>Menonton video porno menyebabkan kecanduan karena pengaruh dari hormon …\n</item>
+        <item>Zat yang secara alami dikeluarkan tubuh yang menyebabkan tertarik dengan lawan jenis adalah …\n</item>
+        <item>Santi dan Lisa adalah teman sekamar di asrama. Santi sedang menstruasi dan tidak lama kemudian Lisa juga menstruasi. Hal tersebut merupakan efek dari …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan9">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan9">
+        <item>A. Testosterone dan dopamin</item>
+        <item>B. Estrogen dan dopamin</item>
+        <item>C. Endorfin dan dopamin</item>
+        <item>D. Endokrin dan dopamin</item>
+        <item>A. Dopamine</item>
+        <item>B. Endorphin</item>
+        <item>C. Endokrin</item>
+        <item>D. Pheromone</item>
+        <item>A. Dopamine</item>
+        <item>B.Endorphin</item>
+        <item>C. Endokrin</item>
+        <item>D. Pheromone</item>
+
+
+    </string-array>
+    <string-array name="penjelasanjawaban9">
+        <item>Saat menonton video porno, hormon endofrin dan dopamine (hormone rasa senang) diproduksi. Agar kenikmatan meningkat lebih, hormone akan diproduksi dalam jumlah yang lebih besar dari semula sehingga akan terpicu ingin menonton video yang lebih dan lebih. Hal serupa terjadi pada pecandu narkoba, minuman keras, dan pelaku onani/masturbasi.</item>
+        <item>Pheromone adalah zat yang berasal dari kelenjar endokrin, secara alami dikeluarkan tubuh pada masa subur dan disebarkan melalui udara untuk menarik perhatian lawan jenis (zat pemikat). Bau pheromone bereaksi dengan hormone estrogen (wanita) dan testosterone (pria) sehingga menimbulkan rasa cinta/tertarik.\n</item>
+        <item>Zat pheromone selain untuk menarik lawan jenis juga dipancarkan pada saat ovulasi sehingga memperlambat siklus haid yang mencium. Dampaknya wanita yang tinggal berdekatan (misal sekamar) dalam waktu dekat ikut mengalami menstruasi\n</item>
+    </string-array>
+
+    <integer-array name="jawabankuis9">
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+
+
+    <!--Soal8-->
+    <string-array name="soal8">
+        <item>Sel darah putih yang diserang oleh virus HIV sehingga daya tahan tubuh menurun drastis adalah …\n</item>
+        <item>Penyakit yang tidak menular lewat hubungan seksual adalah …\n</item>
+        <item>Keluarnya nanah pada alat kelamin merupakan ciri khas penyakit …\n</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan8">
+        <item>5</item>
+        <item>5</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan8">
+        <item>A. Basofil</item>
+        <item>B. Neutrofil</item>
+        <item>C. Monosit</item>
+        <item>D. Easinofil</item>
+        <item>E. Limfosit </item>
+        <item>A. Herpes </item>
+        <item>B. Klamidia</item>
+        <item>C. Kanker serviks</item>
+        <item>D. Hepatitis</item>
+        <item>E. Kanker payudara</item>
+        <item>A. Gonorrhea</item>
+        <item>B. Sifilis</item>
+        <item>C. Klamidia</item>
+        <item>D. Kanker serviks</item>
+
+
+    </string-array>
+    <string-array name="penjelasanjawaban8">
+        <item>Pada penderita HIV, Sel darah putih limfosit yang bertugas menjaga kekebalan tubuh diserang sehingga kekebalan tubuh menurun\n</item>
+        <item>Kanker payudara tidak ditularkan melalui hubungan seksual namun karena faktor keturunan dan faktor lain yang memicu kanker. Kanker serviks disebabkan virus HPV (human papilloma virus) yang bisa menular lewat hubungan seksual\n</item>
+        <item>Gonorrhea disebut juga kencing nanah, keluarnya sekret keputihan berwarna kuning kehijauan (nanah) yang kental disebabkan infeksi bakteri Neisseria gonorrheae\n</item>
+    </string-array>
+
+    <integer-array name="jawabankuis8">
+        <item>4</item>
+        <item>4</item>
+        <item>0</item>
+    </integer-array>
+
+
+    <!--Soal 5-->
+    <string-array name="soal5">
+        <item>Tempat diproduksinya sperma ditunjukkan pada organ nomor …\n</item>
+        <item>Tempat bertemunya sperma dengan sel telur sehingga terjadi kehamilan ditunjukkan pada organ nomor …\n</item>
+        <item>Fase yang disebut dengan masa subur bagi perempuan adalah …\n</item>
+        <item>Contoh bahan celana dalam yang dapat menyerap keringat adalah …\n</item>
+        <item>Usia yang berisiko untuk kehamilan adalah …\n</item>
+        <item>Yang termasuk cara untuk menjaga kesehatan reproduksi saat menstruasi adalah sebagai berikut, kecuali …\n</item>
+
+    </string-array>
+
+
+    <string-array name="jenisSoal5">
+        <item>Gambar</item>
+        <item>Gambar</item>
+        <item>teks</item>
+        <item>teks</item>
+        <item>teks</item>
+        <item>teks</item>
+    </string-array>
+
+    <integer-array name="jumlahpilihan5">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="pilihan5">
+        <item>A. 8</item>
+        <item>B. 6</item>
+        <item>C. 4</item>
+        <item>D. 2</item>
+        <item>A. 1 </item>
+        <item>B. 2 </item>
+        <item>C. 4</item>
+        <item>D. 5</item>
+        <item>A. Follicular phase</item>
+        <item>B. Luteal phase</item>
+        <item>C. Menstruation phase</item>
+        <item>D. Ovulation phase</item>
+        <item>A. Nilon</item>
+        <item>B. Katun</item>
+        <item>C. Wol</item>
+        <item>D. Lateks</item>
+        <item>A. &lt;20 tahun</item>
+        <item>B. 20&#8211;35 tahun</item>
+        <item>C. &gt;35 tahun</item>
+        <item>D. Jawaban a dan c benar</item>
+        <item>A. Mengganti pembalut minimal 3 kali sehari</item>
+        <item>B. Mandi 2 kali sehari</item>
+        <item>C. Tidak keramas karena membuat haid mampet</item>
+        <item>D. Memilih pembalut yang tidak berparfum</item>
+
+
+    </string-array>
+    <string-array name="penjelasanjawaban5">
+        <item>(Gambar)\n</item>
+        <item>(Gambar)\n</item>
+        <item>Fase ovulasi yang puncaknya di hari ke-14 jika siklusnya normal merupakan fase matangnya sel telur yang siap untuk dibuahi sperma\n</item>
+        <item>Bahan yang dapat menyerap keringat yang bagus untuk celana dalam adalah katun dan kaus\n</item>
+        <item>Umur &lt;20 tahun berisiko karena alat reproduksi belum matang sepenuhnya sedangkan umur &gt;35 tahun berisiko karena kondisi fisik dan rahim sudah menurun\n</item>
+        <item>Keramas diperbolehkan saat menstruasi. Haid mampet terjadi bila pola makan tidak sehat, misal sebelum haid banyak konsumsi makanan berlemak, asin, atau pedas, atau karena ada penyakit\n</item>
+    </string-array>
+
+    <integer-array name="jawabankuis5">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </integer-array>
+
+    <!--Mitos Fakta-->
+
+    <string name="penjelasanMitos">
+        Mitos adalah sesuatu yang terjadi dan dipercaya yang didasari oleh suatu ide dan pendapat yang diyakini kebenarannya oleh banyak orang (masyarakat) tetapi tidak bisa dibuktikan melalui pengetahuan ilmiah terkini.\n\nFakta adalah sesuatu yang terjadi dan bisa dibuktikan kebenarannya secara ilmiah. Mitos yang berkembang biasanya dipengaruhi oleh manfaat pribadi yang bisa dirasakan langsung oleh orang tersebut.\n
+    </string>
+
+
+    <string-array name="jawabanSoalMitos">
+        <item>Menstruasi merupakan peluruhan dinding rahim (endometrium) sebagai respon tingginya progesterone. Haid juga dipengaruhi oleh kondisi psikis. Siklus menstruasi bisa menjadi pendek karena pengaruh pheromone (feromon), yaitu Zat yang berasal dari kelenjar endokrin yang dipancarkan pada saat ovulasi sehingga memperlambat siklus haid yang mencium. Akibatnya, teman satu kamar bisa ikut menstruasi karena siklus haidnya menjadi pendek\n</item>
+        <item>Ciuman dengan mulut terbuka (bibir dengan bibir) dalam waktu yang lama dan merusak mulut (luka) memungkinkan HIV berpindah dari orang yang terinfeksi ke pasangannya\n</item>
+        <item>Darah haid mengandung zat anti pembekuan darah sehingga tidak membeku\n</item>
+        <item>HIV tidak menular melalui gigitan nyamuk. HIV hanya bisa hidup di dalam tubuh manusia\n</item>
+        <item>HIV tidak menular melalui kontak (kegiatan) sosial, misalnya: penggunaan toilet dan penggunaan alat makan dan minum yang digunakan ODHA\n</item>
+
+        <item>Pertemuan sperma dan sel telur dapat menyebabkan kehamilan walaupun hanya berhubungan seks sekali\n</item>
+        <item>Makanan dan minuman tidak mempengaruhi jalannya haid menjadi cepat atau lama bersihnya. Lancarnya haid dipengaruhi oleh gaya hidup dan pola makan\n</item>
+        <item>Haid mampet terjadi bila pola makan tidak sehat, misal sebelum haid banyak konsumsi makanan berlemak, asin, atau pedas, atau karena ada penyakit\n</item>
+        <item>Pencegahan jerawat dengan menjaga kebersihan kulit, bekas jerawat dihilangkan dengan dermabrasi, terapi laser, dan lainnya\n</item>
+        <item>Banyak cara untuk menunjukkan rasa sayang atau cinta kepada pasangan/pacar kita dan tidak melulu hubungan seks. Hubungan seks seharusnya bebas dari paksaan, ancaman, dan dari risiko infeksi menular seksual\n</item>
+
+        <item>Ovulasi bisa saja terjadi setelah menstruasi. Berhubungan seksual saat menstruasi mempertinggi risiko infeksi (karena rongga vagina terbuka apalagi saat menstruasi) dan peluang udara masuk hingga masuk ke otak yang menyebabkan emboli (masuknya udara dalam darah) yang bisa menyebabkan kematian\n</item>
+        <item>Ovulasi bisa saja sudah terjadi sebelum menstruasi karena pada dasarnya pelepasan sel telur terjadi sebelum menstruasi\n</item>
+        <item>Berenang, bersalaman dengan ODHA tidak akan menularkan HIV. Prinsip pada kontak sosial ini tidak terjadi pertukaran cairan yang dapat menularkan HIV. Cairan yang dapat menularkan HIV adalah darah, cairan sperma dan cairan vagina, ASI\n</item>
+        <item>Penularan HIV bisa juga terjadi karena jarum suntik tidak steril atau dari ibu ke janin\n</item>
+        <item>Belum ada penemuan obat yang menyembuhkan HIV/AIDS. Hanya menghambat perkembangan virus saja, yaitu antiretroviral (ARV)\n</item>
+
+        <item>Perawan tidaknya perempuan tidak bisa dilihat dari ciri-ciri fisiknya. Perawan ditentukan dari pernah atau tidaknya seseorang berhubungan seksual\n</item>
+        <item>Mandul bisa dialami oleh perempuan maupun laki-laki. Mandul disebabkan oleh berbagai faktor antara lain: gangguan pada organ reproduksi, gangguan hormonal, dan psikologis\n</item>
+        <item>Pada umumnya waria memiliki penis, kecuali apabila sudah operasi kelamin dan apabila seorang waria sudah operasi kelamin dia tidak mau disebut waria tetapi ingin disebut perempuan, wanita atau transeksual\n</item>
+        <item>Jika tidak mengeluarkan darah saat malam pertama tidak berarti perempuan tersebut sudah pernah berhubungan seks sebelumnya. Banyak hal yang bisa menyebabkan kondisi  ini  terjadi, misalnya bentuk hymens (selaput dara), jatuh dari sepeda atau kecelakaan lainnya\n</item>
+        <item>Semua penyalahguna berawal dari mencoba sedikit-sedikit saja, karena itu jangan  coba-coba  NAPZA  sedini mungkin\n</item>
+
+
+    </string-array>
+
+    <string-array name="soalMitos">
+        <item>Menginjak jempol bisa membuat menstruasi menular\n</item>
+        <item>HIV/AIDS bisa menular melalui ciuman bibir saat terdapat luka di bagian mulut dan bibir\n</item>
+        <item>Minum es membuat darah haid membeku\n</item>
+        <item>HIV/AIDS bisa menular melalui gigitan nyamuk\n</item>
+        <item>HIV menular melalui penggunaan toilet yang pernah digunakan oleh ODHA (orang dengan HIV/AIDS)\n</item>
+
+        <item>Hubungan seks kalau satu kali tidak menyebabkan kehamilan\n</item>
+        <item>Minum soda memperlancar haid\n</item>
+        <item>Keramas membuat haid mampet\n</item>
+        <item>Darah haid pertama bisa cegah jerawat\n</item>
+        <item>Berhubungan seksual dengan pacar merupakan bukti cinta\n</item>
+
+        <item>Berhubungan seks saat menstruasi bisa menyebabkan hamil\n</item>
+        <item>Wanita yang belum menstruasi jika berhubungan seksual tetap memiliki peluang hamil\n</item>
+        <item>Berenang   bersama  Orang dengan HIV / AIDS (ODHA) menularkan HIV\n</item>
+        <item>HIV/AIDS hanya ditularkan lewat berhubungan seksual\n</item>
+        <item>Belum ada obat yang dapat menyembuhkan HIV dan AIDS\n</item>
+
+        <item>Perawan tidaknya perempuan bisa dilihat dari caranya berjalan, bentuk pantat, dan bentuk lutut\n</item>
+        <item>Mandul hanya dialami oleh perempuan\n</item>
+        <item>Waria (banci) memiliki penis dan vagina\n</item>
+        <item>Jika tidak mengeluarkan darah saat malam pertama maka perempuan tersebut   pasti   sudah   pernah berhubungan seks sebelumnya\n</item>
+        <item>Kalau pakai NAPZA (narkotika) sedikit saja pasti tidak apa apa\n</item>
+    </string-array>
+
+
+    <!--0 = mitos 1 = fakta-->
+    <integer-array name="jawabanMitos">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!--Key-->
+
+    <string name="QUIZ_AKU_USERNAME">id.co.blogspot.blogmozink.aku.username</string>
+    <string name="QUIZ_AKU_UMURUSER">id.co.blogspot.blogmozink.aku.umur</string>
+    <string name="QUIZ_AKU_KELAMINUSER">id.co.blogspot.blogmozink.aku.kelamin</string>
+    <string name="MateriFragment">id.co.blogspot.blogmozink.aku.materi.fragment</string>
+    <string name="KuisFragment">id.co.blogspot.blogmozink.aku.materi.kuis</string>
+    <string name="QUIZ_AKU_SCORE">id.co.blogspot.blogmozink.aku.score</string>
+    <string name="QUIZ_AKU_NYAWA">id.co.blogspot.blogmozink.aku.nyawa</string>
+    <string name="QUIZ_AKU_LEVEL">id.co.blogspot.blogmozink.aku.level</string>
+    <string name="QUIZ_AKU_SOAL1">id.co.blogspot.blogmozink.aku.level1</string>
+    <string name="QUIZ_AKU_SOAL2">id.co.blogspot.blogmozink.aku.level2</string>
+    <string name="QUIZ_AKU_SOAL3">id.co.blogspot.blogmozink.aku.level3</string>
+    <string name="QUIZ_AKU_SOAL4">id.co.blogspot.blogmozink.aku.level4</string>
+    <string name="QUIZ_AKU_SOAL5">id.co.blogspot.blogmozink.aku.level5</string>
+    <string name="QUIZ_AKU_SOAL6">id.co.blogspot.blogmozink.aku.level6</string>
+    <string name="QUIZ_AKU_SOAL7">id.co.blogspot.blogmozink.aku.level7</string>
+    <string name="QUIZ_AKU_SOAL8">id.co.blogspot.blogmozink.aku.level8</string>
+    <string name="QUIZ_AKU_SOAL9">id.co.blogspot.blogmozink.aku.level9</string>
+    <string name="QUIZ_AKU_PROGRESS">id.co.blogspot.blogmozink.aku.progress</string>
+    <string name="QUIZ_AKU_NOMITOSFAKTA">id.co.blogspot.blogmozink.aku.nomormitosfakta</string>
+    <string name="QUIZ_AKU_BGM">id.co.blogspot.blogmozink.aku.bgm</string>
+    <string name="QUIZ_AKU_SFX">id.co.blogspot.blogmozink.aku.sfx</string>
+
+
+    <string name="title_activity_layoutmateri1">layoutmateri1</string>
+    <string name="title_activity_tutorial_aku">tutorialAKU</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>

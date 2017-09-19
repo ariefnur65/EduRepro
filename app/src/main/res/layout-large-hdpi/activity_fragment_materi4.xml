@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="460dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bgpilihankuisaku"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="id.co.blogspot.blogmozink.edurepro.fragmentMateri4"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="79dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="470dp"
+        android:background="@drawable/bgmaterikuisaku"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="241dp"
+            android:layout_height="53dp"
+
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="@string/materi4"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="51dp" />
+
+        <ScrollView
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="10dp"
+            android:paddingStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="350dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/justifyTextView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1.07"
+                    android:text="@string/teksMateri4_1"
+                    android:textColor="@color/colorText"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="259dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/equation" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/justifyTextView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1.07"
+                    android:text="@string/teksMateri4_2"
+                    android:textColor="@color/colorText"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:paddingRight="15dp"
+                    app:srcCompat="@drawable/tabelimt" />
+
+                <Button
+                    android:id="@+id/spoiler4_1"
+                    android:layout_width="250dp"
+                    android:layout_height="34dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/spoilermaterikuisaku"
+                    android:gravity="center"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/SpoilerMateri41_1_1"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1.07"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler4_1"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri41_1_2"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/spoiler4_2"
+                    android:layout_width="250dp"
+                    android:layout_height="34dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/spoilermaterikuisaku"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/SpoilerMateri41_2_1"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler4_2"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri41_2_2"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/spoiler4_3"
+                    android:layout_width="250dp"
+                    android:layout_height="34dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/spoilermaterikuisaku"
+                    android:paddingRight="30dp"
+                    android:text="@string/SpoilerMateri41_3_1"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1.07"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler4_3"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri41_3_2"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/spoiler4_4"
+                    android:layout_width="250dp"
+                    android:layout_height="34dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/spoilermaterikuisaku"
+                    android:paddingRight="30dp"
+                    android:text="@string/SpoilerMateri41_4_1"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout44"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1.07"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler4_4"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri41_4_2"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/justifyTextView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1.07"
+                    android:text="@string/SpoilerMateri42_1"
+                    android:textColor="@color/colorText"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/spoiler4_5"
+                    android:layout_width="250dp"
+                    android:layout_height="34dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/spoilermaterikuisaku"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/SpoilerMateri42"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textSize="12sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout46"
+                    android:layout_width="247dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+                    <Button
+                        android:id="@+id/spoiler41_1"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_1_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:id="@+id/isispoiler4_6"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_1_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/spoiler41_2"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_2_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:id="@+id/isispoiler4_7"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_2_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/spoiler41_3"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_3_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_3_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/spoiler41_4"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_4_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_4_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/spoiler41_5"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_5_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_5_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/spoiler41_6"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_6_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_6_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/spoiler41_7"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="9dp"
+                        android:background="@drawable/spoilermaterikuisaku"
+                        android:paddingRight="30dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/SpoilerMateri42_7_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorText"
+                        android:textSize="12sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="@+id/text"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                    <LinearLayout
+                        android:id="@+id/spoiler_layout41_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1.07"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:id="@+id/isispoiler3_6"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1.07"
+                            android:text="@string/SpoilerMateri42_7_2"
+                            android:textColor="@color/colorText"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1.07" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

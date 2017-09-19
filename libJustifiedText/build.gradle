@@ -1,0 +1,95 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+def currentVersion = 4
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 22
+        versionCode currentVersion
+        versionName "1.${currentVersion}"
+    }
+    buildTypes {
+        release {
+            debuggable false
+        }
+    }
+
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.srcDirs
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+task classesJar(type: Jar) {
+    from "$buildDir/intermediates/classes/release"
+}
+
+artifacts {
+    archives classesJar
+    archives sourcesJar
+    archives javadocJar
+}
+
+//def localProp(key) {
+//    def props = new Properties()
+//    file('../local.properties').withReader { reader -> props.load(reader) }
+//    return props.getProperty(key)
+//}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            pom.withXml {
+                def root = asNode()
+                root.appendNode('packaging', 'jar')
+                root.appendNode('name', 'Android Justified Text')
+                root.appendNode('description', 'Android TextView and EditText with justified text')
+                root.appendNode('url', 'https://github.com/programingjd/justified')
+                def license = root.appendNode('licenses').appendNode('license')
+                license.appendNode('name', 'Apache License, Version 2.0')
+                license.appendNode('url', 'http://www.apache.org/licenses/LICENSE-2.0.txt')
+                license.appendNode('distribution', 'repo')
+                def developer = root.appendNode('developers').appendNode('developer')
+                developer.appendNode('id', 'programingjd')
+                developer.appendNode('name', 'Jerome DAVID')
+                developer.appendNode('email', 'contact@jdavid.info')
+                def scm = root.appendNode('scm')
+                scm.appendNode('connection', 'scm:git@github.com:programingjd/justified.git')
+                scm.appendNode('developerConnection', 'scm:git@github.com:programingjd/justified.git')
+                scm.appendNode('url', 'scm:git@github.com:programingjd/justified.git')
+            }
+            groupId 'com.uncopt'
+            artifactId 'android.justified'
+            version "1.${currentVersion}"
+            pom.packaging 'jar'
+            artifact classesJar
+            artifact javadocJar
+            artifact sourcesJar
+        }
+//        repositories {
+//            maven {
+//                url "$buildDir/repo"
+//            }
+//        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+}

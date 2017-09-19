@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.co.blogspot.blogmozink.edurepro">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".BmiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MateriActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            >
+        </activity>
+        <activity
+            android:name=".layoutmateri1"
+            android:label="@string/title_activity_layoutmateri1"
+            android:parentActivityName=".MateriActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="id.co.blogspot.blogmozink.edurepro.MateriActivity" />
+        </activity>
+        <activity android:name=".fragmentMateri2" />
+        <activity android:name=".fragmentMateri1" />
+        <activity android:name=".fragmentMateri3" />
+        <activity android:name=".fragmentMateri4" />
+        <activity android:name=".fragmentMateri5" />
+        <activity android:name=".fragmentMateri6" />
+        <activity android:name=".fragmentMateri7" />
+        <activity android:name=".fragmentMateri8" />
+        <activity android:name=".fragmentMateri9" />
+        <activity
+            android:name=".menuKuisActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".KuisAKU"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".fragmentKuis1" />
+        <activity android:name=".fragmentKuis2" />
+        <activity
+            android:name=".levelUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".fragmentKuis3" />
+        <activity android:name=".fragmentKuis4" />
+        <activity android:name=".fragmentKuis6" />
+        <activity android:name=".fragmentKuis7" />
+        <activity android:name=".fragmentKuis9" />
+        <activity
+            android:name=".levelSelesai"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".fragmentKuis8" />
+        <activity android:name=".fragmentKuis5" />
+        <activity
+            android:name=".akunku"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".mitosAtauFakta"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".mitosfaktakuis"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".tutorial_slide" />
+        <activity
+            android:name=".tutorialAKU"
+            android:label="@string/title_activity_tutorial_aku"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="id.co.blogspot.blogmozink.edurepro.MainActivity" />
+        </activity>
+        <activity
+            android:name=".about"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".settingSound"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".referensi"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".videoPembelajaran"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+    </application>
+
+</manifest>

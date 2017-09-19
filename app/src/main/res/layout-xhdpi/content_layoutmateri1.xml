@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgpilihankuisaku"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.co.blogspot.blogmozink.edurepro.layoutmateri1"
+    tools:showIn="@layout/activity_layoutmateri1"
+    tools:layout_editor_absoluteY="79dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgmaterikuisaku"
+
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="323dp"
+            android:layout_height="57dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="6dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-1dp"
+            android:gravity="center"
+            android:paddingLeft="60dp"
+            android:text="@string/materi1"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-9dp" />
+
+        <ScrollView
+            android:layout_width="325dp"
+            android:layout_height="384dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/text"
+                    android:layout_width="292dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/teksMateri1_1"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    tools:layout_editor_absoluteY="68dp" />
+<!--    public enum FragmentToLaunch {Materi1,Materi2,Materi3,Materi4,Materi5,Materi6,Materi7,Materi8,Materi9}
+-->
+                <Button
+                    android:id="@+id/spoiler1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/spoilermaterikuisaku"
+                    android:onClick="spoil11"
+                    android:paddingRight="15dp"
+                    android:text="@string/SpoilerMateri1"
+                    android:textColor="@color/colorText"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="@+id/text"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                <LinearLayout
+                    android:id="@+id/spoiler_layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text">
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri1_1"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler1_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri1_2"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/isispoiler1_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.07"
+                        android:text="@string/SpoilerMateri1_3"
+                        android:textColor="@color/colorText"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
